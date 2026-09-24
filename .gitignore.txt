@@ -1,0 +1,37 @@
+# Databricks / local files
+.databricks/
+*.dbc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data files
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# Delta / Spark generated data
+_checkpoints/
+_delta_log/
+
+# Secrets and credentials
+.env
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
